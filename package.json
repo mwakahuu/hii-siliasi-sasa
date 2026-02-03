@@ -1,0 +1,30 @@
+{
+  "name": "memespro",
+  "version": "0.0.1",
+  "type": "module",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
+    "@libsql/client": "^0.17.0",
+    "@mui/icons-material": "^5.15.0",
+    "@mui/material": "^5.15.0",
+    "@remix-run/router": "^1.23.2",
+    "@types/react-dom": "^19.2.3",
+    "dotenv": "^17.2.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^7.13.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.10",
+    "@vitejs/plugin-react": "^4.2.1",
+    "terser": "^5.46.0",
+    "vite": "^4.5.14"
+  }
+}

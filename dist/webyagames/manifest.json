@@ -1,0 +1,57 @@
+{
+  "name": "Lights Out Game",
+  "short_name": "Lights Out",
+  "start_url": "/",
+  "scope": "/",
+  "theme_color": "#cce587",
+  "background_color": "#ffffff",
+  "icons": [
+    {
+      "src": "images/favicon/6.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "images/favicon/5.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "images/favicon/3.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+	{
+	  "src": "images/favicon/2.png",
+      "sizes": "72x72",
+      "type": "image/png"
+	},
+	{
+	  "src": "images/favicon/1.png",
+      "sizes": "57x57",
+      "type": "image/png"
+	},
+	{
+	  "src": "images/favicon/4.png",
+      "sizes": "32x32",
+      "type": "image/png"
+	},
+    {
+	  "src": "images/favicon/7.png",
+      "sizes": "152x152",
+      "type": "image/png"
+	},
+    {
+	  "src": "images/favicon/8.png",
+      "sizes": "180x180",
+      "type": "image/png"
+	},
+    {
+	  "src": "images/favicon/9.png",
+      "sizes": "167x167",
+      "type": "image/png"
+	}
+  ],
+  "display": "fullscreen",
+  "orientation": "portrait"
+}
