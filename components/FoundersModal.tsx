@@ -61,7 +61,7 @@ const foundersData: FounderData[] = [
     image: 'https://i.ibb.co/3yZLq3h7/huncho.jpg',
     name: 'KILAKA HUNCHO ',
     description:
-      'CHARMING GUY, CONTENT CREATOR, Social media manager, ishu zote za International social media account DM, PRODUCER kama unakipaji kuimba DM,AM SINGLE AND READY TO MINGLE😇, TRUST THE SYSTEM, ',
+      'CHARMING GUY, CONTENT CREATOR, Social media manager, ishu zote za International social media account DM, PRODUCER kama unakipaji kuimba DM, TRUST THE SYSTEM,',
     whatsapp: '255763302164',
   },
   {
