@@ -56,8 +56,16 @@ const foundersData: FounderData[] = [
       'Dokta, teacher, Lipa namba zote, laini, mabando na huduma zote za mitandao ya simu DM. Handsome wa Ubungo.',
     whatsapp: '255693129648',
   },
-  {
+   {
     id: 5,
+    image: 'https://i.ibb.co/3yZLq3h7/huncho.jpg',
+    name: 'KILAKA HUNCHO ',
+    description:
+      'CHARMING GUY, CONTENT CREATOR, Social media manager, ishu zote za International social media account DM, PRODUCER kama unakipaji kuimba DM,AM SINGLE AND READY TO MINGLE😇, TRUST THE SYSTEM, ',
+    whatsapp: '255763302164',
+  },
+  {
+    id: 6,
     image: 'https://i.ibb.co/gMjpb6wm/kiumbe.jpg',
     name: 'Tacitus',
     description:
@@ -65,7 +73,7 @@ const foundersData: FounderData[] = [
     whatsapp: '255756281296',
   },
   {
-    id: 6,
+    id: 7,
     image: 'https://i.ibb.co/N2pxNP2Z/baraka.jpg',
     name: 'SIRTHEPROGRAMMER',
     description:
