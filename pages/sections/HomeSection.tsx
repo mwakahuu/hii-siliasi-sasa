@@ -106,6 +106,12 @@ export default function HomeSection() {
           </Box>
         </Box>
 
+        {/* Adsterra Banner Ads */}
+        <Box sx={{ display: 'flex', justifyContent: 'center', mb: 4 }}>
+          <div id="container-4c70a56426c3a2fba39906d492570873"></div>
+        </Box>
+        <script async data-cfasync="false" src="https://pl28755538.effectivegatecpm.com/4c70a56426c3a2fba39906d492570873/invoke.js"></script>
+
         {/* Home content will be added here */}
       </Box>
     </Container>
