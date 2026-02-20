@@ -1,8 +1,35 @@
+import React, { useEffect } from 'react'
 import Box from '@mui/material/Box'
 import Container from '@mui/material/Container'
 import Typography from '@mui/material/Typography'
 
 export default function HomeSection() {
+  useEffect(() => {
+    // Load the Adsterra ad script
+    const script = document.createElement('script')
+    script.src = 'https://pl28755538.effectivegatecpm.com/4c70a56426c3a2fba39906d492570873/invoke.js'
+    script.async = true
+    script.setAttribute('data-cfasync', 'false')
+    document.body.appendChild(script)
+
+    // Reload ad script on mobile when element becomes visible
+    const adContainer = document.getElementById('container-4c70a56426c3a2fba39906d492570873')
+    if (adContainer && 'IntersectionObserver' in window) {
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting && window.adsbygoogle) {
+            try {
+              window.adsbygoogle.push({})
+            } catch (e) {
+              console.log('Ad error:', e)
+            }
+          }
+        })
+      }, { threshold: 0.5 })
+      observer.observe(adContainer)
+    }
+  }, [])
+
   return (
     <Container maxWidth="lg">
       <Box
@@ -107,10 +134,30 @@ export default function HomeSection() {
         </Box>
 
         {/* Adsterra Banner Ads */}
-        <Box sx={{ display: 'flex', justifyContent: 'center', mb: 4 }}>
-          <div id="container-4c70a56426c3a2fba39906d492570873"></div>
+        <Box 
+          sx={{ 
+            display: 'flex', 
+            justifyContent: 'center', 
+            alignItems: 'center',
+            mb: 4, 
+            minHeight: { xs: '280px', sm: '250px', md: '280px' },
+            minWidth: { xs: '280px', sm: '300px', md: '300px' },
+            backgroundColor: '#f5f5f5',
+            borderRadius: '8px',
+            overflow: 'hidden',
+          }}
+        >
+          <div 
+            id="container-4c70a56426c3a2fba39906d492570873" 
+            style={{ 
+              minWidth: '100%', 
+              minHeight: '100%',
+              display: 'flex',
+              justifyContent: 'center',
+              alignItems: 'center',
+            }}
+          ></div>
         </Box>
-        <script async data-cfasync="false" src="https://pl28755538.effectivegatecpm.com/4c70a56426c3a2fba39906d492570873/invoke.js"></script>
 
         {/* Home content will be added here */}
       </Box>
